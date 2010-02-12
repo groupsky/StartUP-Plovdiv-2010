@@ -51,31 +51,50 @@ class RandomPostsFromCategory extends WP_Widget {
 			$title = apply_filters('widget_title', empty( $instance['title'] ) ? __( 'Random Posts' , 'random-posts-from-category') : $instance['title']);
 			
 			echo $before_widget;
-			if ( $title) {
-				if ($instance['postlink'] == 1)  {
-					$before_title .= '<a href="'.get_category_link($instance['cat']).'">';
-					$after_title .= '</a>';
-				}
-				echo $before_title.$title.$after_title;
-			}
-			?>
-			<ul>
-			<?php 
 			$random = new WP_Query("cat=".$instance['cat']."&showposts=".$instance['showposts']."&orderby=rand"); 
+			$first = true;
 			// the Loop
 			if ($random->have_posts()) : 
-			while ($random->have_posts()) : $random->the_post(); /*?>
+			while ($random->have_posts()): 
+			  $random->the_post();
+			  if ($first): 
+			    $first = false;
+			    ?>
+			      <div class="movie">
+			    <?php
+			    /*?>
                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 <?php */
-				if ($instance['content'] == 'excerpt') {
-					if (function_exists('the_excerpt_reloaded')) 
-						the_excerpt_reloaded($instance['words'], $instance['tags'], 'content', FALSE, '', '', '1', '');
-					else the_excerpt();  // this covers Advanced Excerpt as well as the built-in one
-				}
-				if ($instance['content'] == 'content') the_content();
+				  if ($instance['content'] == 'excerpt') {
+					  if (function_exists('the_excerpt_reloaded')) 
+						  the_excerpt_reloaded($instance['words'], $instance['tags'], 'content', FALSE, '', '', '1', '');
+					  else the_excerpt();  // this covers Advanced Excerpt as well as the built-in one
+				  }
+				  if ($instance['content'] == 'content') the_content();
+				  ?>
+				  </div>
+				  <div class="movies_list">
+				  <?php
+			    if ( $title) {
+				    if ($instance['postlink'] == 1)  {
+					    $before_title .= '<a href="'.get_category_link($instance['cat']).'">';
+					    $after_title .= '</a>';
+				    }
+				    echo $before_title.$title.$after_title;
+			    }
+				  ?>
+    			<ul>
+				  <?php
+				else:
+		    ?>
+		      <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+		    <?php
+				endif;
 			endwhile; endif;
 			?>
 			</ul>
+			</div>
+			<div class="clr"></div>
 			<?php
 			echo $after_widget;
 	}
