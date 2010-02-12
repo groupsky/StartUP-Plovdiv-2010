@@ -1,0 +1,35 @@
+#hfpl_admin .postbox div.inside{position:relative;padding: 10px;}
+#hfpl_admin .size{min-height: 0 !important;}
+#hfpl_admin{width: 70%;float: left;}
+.hfpl_wrap, #hungred_sidebar{font-family: Verdana, Arial, Helvetica, sans-serif !important;}
+.hungred_list{padding: 0.5em;}
+ul.hungred_list  li{line-height: 16px;list-style: square;}
+ul.hungred_list{
+	margin-left: 20px;
+}
+ul.hungred_list li {
+	list-style: square;
+	line-height:16px;
+}
+ul.hungred_list li.rss {
+	list-style-image: url(/wp-includes/images/rss.png);
+}
+.hfpl_wrap .label
+{
+width: 12em;
+float: left;
+text-align: left;
+margin-right: 0.5em;
+display: block
+}
+
+.hfpl_wrap select, .hfpl_wrap input[type='text']
+{
+width: 150px;
+}
+
+.hfpl_red
+{
+color: red;
+}
+

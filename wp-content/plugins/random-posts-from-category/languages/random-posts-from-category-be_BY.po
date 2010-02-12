@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: RPF\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/random-posts-from-category\n"
+"POT-Creation-Date: 2009-11-14 04:08+0000\n"
+"PO-Revision-Date: 2009-11-15 11:32+0200\n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: random-from-category-widget.php:35
+msgid "random posts from a chosen category"
+msgstr "случайные сообщения из выбранной категории"
+
+#: random-from-category-widget.php:36
+msgid "Random Posts from Category"
+msgstr "Случайные сообщений из категории"
+
+#: random-from-category-widget.php:43
+msgid "Random Posts"
+msgstr "Случайные сообщения"
+
+#: random-from-category-widget.php:91
+msgid "Recent Posts"
+msgstr "Последние сообщения"
+
+#: random-from-category-widget.php:101
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: random-from-category-widget.php:106
+msgid "Show posts from category:"
+msgstr "Показать сообщения из категорий:"
+
+#: random-from-category-widget.php:113
+msgid "Link widget title to category archive"
+msgstr "Ссылка Название виджета к категории архив"
+
+#: random-from-category-widget.php:116
+msgid "Number of posts to show:"
+msgstr "Количество постов для показа:"
+
+#: random-from-category-widget.php:122
+msgid "Display:"
+msgstr "Отображение:"
+
+#: random-from-category-widget.php:124
+msgid "Title Only"
+msgstr "Только заглавие"
+
+#: random-from-category-widget.php:125
+msgid "Title and Excerpt"
+msgstr "Заглавие и выдержка"
+
+#: random-from-category-widget.php:126
+msgid "Title and Content"
+msgstr "Заглавие и содержание"
+
+#: random-from-category-widget.php:133
+msgid "Limit excerpts to how many words?:"
+msgstr "Предельные выдержки, сколько слов?:"
+
+#: random-from-category-widget.php:139
+msgid "Allowed HTML tags in excerpts:"
+msgstr "Допустимые HTML-теги в отрывки из нее:"
+
+#: random-from-category-widget.php:143
+msgid "E.g.: "
+msgstr "Например:"
+

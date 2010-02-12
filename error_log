@@ -1,0 +1,16 @@
+[06-Feb-2010 00:08:20] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/groupsky/public_html/2010/wp-content/plugins/daikos-youtube-widget/daikosyoutubewidget.php on line 120
+[06-Feb-2010 00:08:20] PHP Warning:  Invalid argument supplied for foreach() in /home/groupsky/public_html/2010/wp-content/plugins/daikos-youtube-widget/daikosyoutubewidget.php on line 121
+[06-Feb-2010 00:08:20] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/groupsky/public_html/2010/wp-content/plugins/daikos-youtube-widget/daikosyoutubewidget.php on line 138
+[06-Feb-2010 00:08:20] PHP Warning:  Invalid argument supplied for foreach() in /home/groupsky/public_html/2010/wp-content/plugins/daikos-youtube-widget/daikosyoutubewidget.php on line 139
+[07-Feb-2010 18:42:13] PHP Parse error:  syntax error, unexpected ')' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/footer.php on line 4
+[07-Feb-2010 18:42:14] PHP Parse error:  syntax error, unexpected ')' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/footer.php on line 4
+[07-Feb-2010 18:42:43] PHP Parse error:  syntax error, unexpected ')' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/footer.php on line 4
+[07-Feb-2010 18:42:44] PHP Parse error:  syntax error, unexpected ')' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/footer.php on line 4
+[07-Feb-2010 18:43:09] PHP Parse error:  syntax error, unexpected ')' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/footer.php on line 6
+[07-Feb-2010 18:43:10] PHP Parse error:  syntax error, unexpected ')' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/footer.php on line 6
+[08-Feb-2010 08:36:22] PHP Parse error:  syntax error, unexpected ';' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/index.php on line 28
+[08-Feb-2010 08:36:24] PHP Parse error:  syntax error, unexpected ';' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/index.php on line 28
+[08-Feb-2010 08:36:27] PHP Parse error:  syntax error, unexpected ';' in /home/groupsky/public_html/2010/wp-content/themes/spc2010/index.php on line 28
+[08-Feb-2010 08:40:56] PHP Fatal error:  Call to undefined function is_signle() in /home/groupsky/public_html/2010/wp-content/themes/spc2010/index.php on line 27
+[08-Feb-2010 08:40:57] PHP Fatal error:  Call to undefined function is_signle() in /home/groupsky/public_html/2010/wp-content/themes/spc2010/index.php on line 27
+[10-Feb-2010 21:55:24] PHP Fatal error:  Call to undefined function is_subcategory() in /home/groupsky/public_html/2010/wp-content/themes/spc2010/index.php on line 44

@@ -1,0 +1,535 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2010-01-05 21:46:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: 2.9\n"
+
+#: 404.php:12
+msgid "Error 404 - Not Found"
+msgstr "Грешка 404 &mdash; това, което търсите, не беше намерено"
+
+#: archive.php:16
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "Архив за категорията '%s'"
+
+#: archive.php:18
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "Публикации с етикет &#8220;%s&#8221;"
+
+#: archive.php:20
+msgid "Archive for %s|Daily archive page"
+msgstr "Архив за %s"
+
+#: archive.php:20 index.php:17
+msgid "F jS, Y"
+msgstr "d.m.Y"
+
+#: archive.php:22
+msgid "Archive for %s|Monthly archive page"
+msgstr "Архив за %s"
+
+#: archive.php:22 sidebar.php:33
+msgid "F, Y"
+msgstr "F, Y"
+
+#: archive.php:24
+msgid "Archive for %s|Yearly archive page"
+msgstr "Архив за %s"
+
+#: archive.php:24
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:26
+msgid "Author Archive"
+msgstr "Архив на автор"
+
+#: archive.php:28
+msgid "Blog Archives"
+msgstr "Архиви"
+
+#: archive.php:33 archive.php:53 index.php:29 search.php:16 search.php:33
+msgid "&laquo; Older Entries"
+msgstr "&laquo; По-стари"
+
+#: archive.php:34 archive.php:54 index.php:30 search.php:17 search.php:34
+msgid "Newer Entries &raquo;"
+msgstr "По-нови &raquo;"
+
+#: archive.php:39 index.php:16 search.php:24
+msgid "Permanent Link to %s"
+msgstr "Постоянна връзка към %s"
+
+#: archive.php:40 image.php:32 sidebar.php:30 single.php:34
+msgid "l, F jS, Y"
+msgstr "d.m.Y"
+
+#: archive.php:46 index.php:23 search.php:27 single.php:26
+msgid "Tags:"
+msgstr "Етикети:"
+
+#: archive.php:46 index.php:23 search.php:27
+msgid "Posted in %s"
+msgstr "Публикувано в %s"
+
+#: archive.php:46 index.php:23 search.php:27
+msgid "Edit"
+msgstr "Редактиране"
+
+#: archive.php:46 index.php:23 search.php:27
+msgid "No Comments &#187;"
+msgstr "Няма коментари &#187;"
+
+#: archive.php:46 index.php:23 search.php:27
+msgid "1 Comment &#187;"
+msgstr "1 Коментар &#187;"
+
+#: archive.php:46 index.php:23 search.php:27
+msgid "% Comments &#187;"
+msgstr "% Коментара &#187;"
+
+#: archive.php:46 index.php:23 search.php:27
+msgid "Comments Closed"
+msgstr "Коментарите са забранени."
+
+#: archive.php:59
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Все още няма публикации в категория %s."
+
+#: archive.php:61
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Няма публикации с тази дата."
+
+#: archive.php:64
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Все още няма публикации от %s."
+
+#: archive.php:66
+msgid "No posts found."
+msgstr "Това, което търсите не беше намерено."
+
+#: archives.php:17
+msgid "Archives by Month:"
+msgstr "Архиви по месеци"
+
+#: archives.php:22
+msgid "Archives by Subject:"
+msgstr "Архиви по тема:"
+
+#: comments-popup.php:9
+msgid "%1$s - Comments on %2$s"
+msgstr "%1$s - Коментари по %2$s"
+
+#: comments-popup.php:28
+msgid "Comments"
+msgstr "Коментари"
+
+#: comments-popup.php:30
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> хранилка за коментарите към тази публикация."
+
+#: comments-popup.php:33
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+msgstr "Адрес за TrackBack към публикацията: <em>%s</em>"
+
+#: comments-popup.php:51
+msgid "Comment"
+msgstr "Коментар"
+
+#: comments-popup.php:51
+msgid "Trackback"
+msgstr "Trackback"
+
+#: comments-popup.php:51
+msgid "Pingback"
+msgstr "Pingback"
+
+#: comments-popup.php:51
+msgid "by %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
+msgstr "от %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
+
+#: comments-popup.php:57
+msgid "No comments yet."
+msgstr "Все още няма коментари."
+
+#: comments-popup.php:61
+msgid "Leave a comment"
+msgstr "Вашият коментар"
+
+#: comments-popup.php:62
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+msgstr "Новите редове и параграфите ще бъдат вмъкнати автоматично, вашият e-mail адрес няма да бъде показван, разрешени са следните <acronym title=\"Hypertext Markup Language\">HTML</acronym> тагове: <code>%s</code>"
+
+#: comments-popup.php:66
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Влезли сте с потребителско име <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Изход от тази потребителска сесия\">Изход &raquo;</a>"
+
+#: comments-popup.php:70 comments.php:72
+msgid "Name"
+msgstr "Име"
+
+#: comments-popup.php:75
+msgid "E-mail"
+msgstr "E-mail"
+
+#: comments-popup.php:80
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr "Интернет адрес"
+
+#: comments-popup.php:85
+msgid "Your Comment"
+msgstr "Вашият коментар"
+
+#: comments-popup.php:93
+msgid "Say It!"
+msgstr "Публикуване!"
+
+#: comments-popup.php:98
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Нямате право да публикувате коментари в момента."
+
+#: comments-popup.php:103
+msgid "Close this window."
+msgstr "Затваряне на прозореца."
+
+#: comments-popup.php:109 image.php:65 single.php:65
+msgid "Sorry, no posts matched your criteria."
+msgstr "Няма публикации, които да отговарят на вашите условия"
+
+#: comments-popup.php:113
+msgid "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>WordPress</strong></a>"
+msgstr "Задвижвано от <a href=\"%s\"><strong>WordPress</strong></a>"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Публикацията е защитена с парола. За да я видите, моля въведете паролата."
+
+#: comments.php:21
+msgid "No Responses"
+msgstr "Няма коментари"
+
+#: comments.php:21
+msgid "One Response"
+msgstr "Един коментар"
+
+#: comments.php:21
+msgid "% Responses"
+msgstr "% коментара"
+
+#: comments.php:21
+msgid "to &#8220;%s&#8221;"
+msgstr "по &#8220;%s&#8221;"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "Коментари са забранени."
+
+#: comments.php:53
+msgid "Leave a Reply"
+msgstr "Вашият коментар"
+
+#: comments.php:53
+msgid "Leave a Reply for %s"
+msgstr "Оставяне на коментар по %s"
+
+#: comments.php:60
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Трябва да <a href=\"%s\">влезете</a>, за да публикувате коментар."
+
+#: comments.php:67
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Влезли сте с потребителско име <a href=\"%1$s\">%2$s</a>."
+
+#: comments.php:67
+msgid "Log out of this account"
+msgstr "Изход"
+
+#: comments.php:67
+msgid "Log out &raquo;"
+msgstr "Изход &raquo;"
+
+#: comments.php:72 comments.php:75
+msgid "(required)"
+msgstr "(задължително)"
+
+#: comments.php:75
+msgid "Mail (will not be published)"
+msgstr "Email (няма да бъде публикуван)"
+
+#: comments.php:78
+msgid "Website"
+msgstr "Интернет страница"
+
+#: comments.php:82
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> може да използвате следните тагове: <code>%s</code>"
+
+#: comments.php:86
+msgid "Submit Comment"
+msgstr "Изпращане на коментара"
+
+#: footer.php:12
+msgid "%1$s is proudly powered by %2$s"
+msgstr "%1$s се задвижва с гордост от %2$s"
+
+#: footer.php:14
+msgid "%1$s and %2$s."
+msgstr "%1$s и %2$s."
+
+#: footer.php:14
+msgid "Entries (RSS)"
+msgstr "Публикации (RSS)"
+
+#: footer.php:14
+msgid "Comments (RSS)"
+msgstr "Коментари (RSS)"
+
+#: footer.php:15
+msgid "%d queries. %s seconds."
+msgstr "%d заявки. %s секунди"
+
+#: functions.php:160
+msgid "Custom Header"
+msgstr "Собствена заглавна картинка"
+
+#: functions.php:173
+msgid "Close Color Picker"
+msgstr "Затваряне"
+
+#: functions.php:376
+msgid "Options saved."
+msgstr "Настройките са запазени."
+
+#: functions.php:379
+msgid "Customize Header"
+msgstr "Собствена заглавна картинка"
+
+#: functions.php:393 functions.php:400
+msgid "Save"
+msgstr "Запис"
+
+#: functions.php:394
+msgid "Font Color:"
+msgstr "Цвят на текста:"
+
+#: functions.php:394
+msgid "Any CSS color (%s or %s or %s)"
+msgstr "Цвят в CSS формат (%s или %s или %s)"
+
+#: functions.php:395
+msgid "Upper Color:"
+msgstr "Горен цвят:"
+
+#: functions.php:395 functions.php:396
+msgid "HEX only (%s or %s)"
+msgstr "Само HEX (%s или %s)"
+
+#: functions.php:396
+msgid "Lower Color:"
+msgstr "Долен цвят:"
+
+#: functions.php:398
+msgid "Toggle Text"
+msgstr "Показване на текста"
+
+#: functions.php:399
+msgid "Use Defaults"
+msgstr "По подразбиране"
+
+#: functions.php:408
+msgid "Font Color"
+msgstr "Цвят на текста"
+
+#: functions.php:409
+msgid "Upper Color"
+msgstr "Горен цвят"
+
+#: functions.php:410
+msgid "Lower Color"
+msgstr "Долен цвят"
+
+#: functions.php:411
+msgid "Revert"
+msgstr "Връщане"
+
+#: functions.php:412
+msgid "Advanced"
+msgstr "Допълнителни"
+
+#: functions.php:419
+msgid "Update Header"
+msgstr "Запис на заглавната част"
+
+#: functions.php:425
+msgid "Font Color (CSS):"
+msgstr "Цвят на  текста (CSS):"
+
+#: functions.php:426
+msgid "Upper Color (HEX):"
+msgstr "Горен цвят (HEX):"
+
+#: functions.php:427
+msgid "Lower Color (HEX):"
+msgstr "Долен цвят (HEX):"
+
+#: functions.php:428
+msgid "Select Default Colors"
+msgstr "Цветове по подразбиране"
+
+#: functions.php:429
+msgid "Toggle Text Display"
+msgstr "Показване на текста"
+
+#: image.php:20 index.php:20 single.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "Прочетете остатъка от публикацията &raquo;"
+
+#: image.php:22 page.php:17 single.php:25
+msgid "Pages:"
+msgstr "Страници:"
+
+#: image.php:32
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr "Публикувано на %1$s в %2$s в категории %3$s."
+
+#: image.php:34 single.php:35
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr "Можете да следите коментарите по тази публикация чрез <a href='%s'>RSS 2.0</a> хранилката."
+
+#: image.php:38 single.php:39
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Можете да <a href=\"#respond\">оставите коментар</a>, или да използвате <a href=\"%s\" rel=\"trackback\">trackback</a> от вашия блог."
+
+#: image.php:42 single.php:43
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Коментарите за забранени,но можете да използвате <a href=\"%s\" rel=\"trackback\">trackback</a> от вашия блог."
+
+#: image.php:46 single.php:47
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Можете да оставите коментар след текста на публикацията."
+
+#: image.php:50 single.php:51
+msgid "Both comments and pings are currently closed."
+msgstr "Коментарите, pingback и trackback са забранени."
+
+#: index.php:35
+msgid "Not Found"
+msgstr "Това, което търсите не беше намерено"
+
+#: index.php:36
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "Това,което търсите не беше намерено."
+
+#: links.php:16
+msgid "Links:"
+msgstr "Връзки:"
+
+#: page.php:15
+msgid "Read the rest of this page &raquo;"
+msgstr "Прочетете остатъка от страницата &raquo;"
+
+#: page.php:22
+msgid "Edit this entry."
+msgstr "Редактиране"
+
+#: search.php:13
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: search.php:39
+msgid "No posts found. Try a different search?"
+msgstr "Не бяха намерени публикации. Ново търсене?"
+
+#: sidebar.php:16
+msgid "Author"
+msgstr "Автор"
+
+#: sidebar.php:27
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Разглеждате архивите за категория %s."
+
+#: sidebar.php:30
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the day %3$s."
+msgstr "Разглеждате архивите на <a href=\"%1$s/\">%2$s</a> за %3$s."
+
+#: sidebar.php:33
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for %3$s."
+msgstr "Разглеждате архивите на <a href=\"%1$s/\">%2$s</a> за %3$s."
+
+#: sidebar.php:36
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the year %3$s."
+msgstr "Разглеждате архивите на <a href=\"%1$s/\">%2$s</a> за %3$sг.."
+
+#: sidebar.php:39
+msgid "You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for <strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
+msgstr "Търсили сте в архивите на <a href=\"%1$s/\">%2$s</a> за<strong>&#8216;%3$s&#8217;</strong>. Ако не сте намерили това, което търсите, опитайте някои от връзките по-долу."
+
+#: sidebar.php:42
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives."
+msgstr "Разглеждате архивите на <a href=\"%1$s/\">%2$s</a>."
+
+#: sidebar.php:50
+msgid "Pages"
+msgstr "Страници"
+
+#: sidebar.php:52
+msgid "Archives"
+msgstr "Архиви"
+
+#: sidebar.php:58
+msgid "Categories"
+msgstr "Категории"
+
+#: sidebar.php:64
+msgid "Meta"
+msgstr "Служебни"
+
+#: sidebar.php:68
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Страницата е с валиден XHTML 1.0 Transitional код"
+
+#: sidebar.php:68
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "Валиден <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+
+#: sidebar.php:69
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: sidebar.php:69
+msgid "XFN"
+msgstr "XFN"
+
+#: sidebar.php:70
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Задвижвано от WordPress - система за публикуване на лично съдържание."
+
+#: single.php:34
+msgid "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
+msgstr "Публикувано %1$s на %2$s в %3$s в категории %4$s."
+
+#: single.php:53
+msgid "Edit this entry"
+msgstr "Редактиране"
+
+msgid "WordPress Default"
+msgstr "Тема по подразбиране"
+
+msgid "http://wordpress.org/"
+msgstr "http://bg.wordpress.org/"
+
+msgid "The default WordPress theme based on the famous <a href=\"http://binarybonsai.com/kubrick/\">Kubrick</a>."
+msgstr "Темата по подразбиране на WordPress, базирана на известната <a href=\"http://binarybonsai.com/kubrick/\">Kubrick</a>."
+
+msgid "Michael Heilemann"
+msgstr "Michael Heilemann"
+
+msgid "http://binarybonsai.com/"
+msgstr "http://binarybonsai.com/"
+
+msgid "blue, custom header, fixed width, two columns, widgets"
+msgstr "blue, custom header, fixed width, two columns, widgets"

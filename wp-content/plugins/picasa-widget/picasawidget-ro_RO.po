@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Picasa Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-19 17:05+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Radu Capan <radu@capan.ro>\n"
+"Language-Team: Radu Capan <radu@capan.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\temp\\picasa-widget\\trunk\n"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:113
+msgid "Latest photos"
+msgstr "Fotografii"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:118
+msgid "photos"
+msgstr "fotografii"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:155
+msgid "Widget Title"
+msgstr "Titlu widget"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:156
+msgid "Photos"
+msgstr "Fotografii"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:157
+msgid "Picasa username"
+msgstr "Nume utilizator Picasa"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:158
+msgid "Your Picasa username"
+msgstr "numele de utilizator Picasa"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:159
+msgid "Widget Mode"
+msgstr "Mod widget"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:161
+msgid "1. Latest albums (text)"
+msgstr "1. Ultimele albume (text)"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:162
+msgid "2. Latest albums (thumbnails)"
+msgstr "2. Ultimele albume (thumbnails)"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:163
+msgid "3. Random pictures"
+msgstr "3. Fotografii aleator"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:165
+msgid "Number of items"
+msgstr "Număr de elemente"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:165
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:167
+msgid "albums or pictures, based on widget mode"
+msgstr "albume sau fotografii, în funcţie de mod"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:167
+msgid "Width of the thumbnails"
+msgstr "Lăţime thumbnails"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:167
+msgid "for squared thumbnails"
+msgstr "pentru thumbnails patrate"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:167
+msgid "choose only squared thumbnail for mode 2"
+msgstr "alegeţi doar thumbnail pătrat pentru modul 2"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:178
+msgid "For mode 2 and 3"
+msgstr "Pentru modul 2 şi 3"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:178
+msgid "Number of columns"
+msgstr "Număr de coloane"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:180
+msgid "For mode 3"
+msgstr "Pentru modul 3"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:180
+msgid "Random from last <em>n</em> albums"
+msgstr "Aleator din ultimele <em>n</em> albume"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:180
+msgid "use 1 to limit to the last album"
+msgstr "puneţi 1 pentru a limita la ultimul album"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:182
+msgid "Show album title?"
+msgstr "Afişez titlul albumului?"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:183
+msgid "Make thumbnails looks nice"
+msgstr "Aspect thumbnail-uri"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:183
+msgid "H-space and V-space"
+msgstr "Spaţiu orizontal şi vertical"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:185
+msgid "Thickness of the border"
+msgstr "Grosimea marginii"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:187
+msgid "Hexa (eg: #cc0000) color of the border"
+msgstr "Culoarea hexa (ex: #cc0000) pentru margine"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:189
+msgid "For help, go"
+msgstr "Pentru suport, mergeţi"
+
+#: c:\temp\picasa-widget\trunk/picasa-widget.php:189
+msgid "here"
+msgstr "aici"
+

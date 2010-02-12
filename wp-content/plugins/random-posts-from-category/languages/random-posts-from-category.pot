@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/random-posts-from-category\n"
+"POT-Creation-Date: 2009-11-14 04:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: random-from-category-widget.php:35
+msgid "random posts from a chosen category"
+msgstr ""
+
+#: random-from-category-widget.php:36
+msgid "Random Posts from Category"
+msgstr ""
+
+#: random-from-category-widget.php:43
+msgid "Random Posts"
+msgstr ""
+
+#: random-from-category-widget.php:91
+msgid "Recent Posts"
+msgstr ""
+
+#: random-from-category-widget.php:101
+msgid "Title:"
+msgstr ""
+
+#: random-from-category-widget.php:106
+msgid "Show posts from category:"
+msgstr ""
+
+#: random-from-category-widget.php:113
+msgid "Link widget title to category archive"
+msgstr ""
+
+#: random-from-category-widget.php:116
+msgid "Number of posts to show:"
+msgstr ""
+
+#: random-from-category-widget.php:122
+msgid "Display:"
+msgstr ""
+
+#: random-from-category-widget.php:124
+msgid "Title Only"
+msgstr ""
+
+#: random-from-category-widget.php:125
+msgid "Title and Excerpt"
+msgstr ""
+
+#: random-from-category-widget.php:126
+msgid "Title and Content"
+msgstr ""
+
+#: random-from-category-widget.php:133
+msgid "Limit excerpts to how many words?:"
+msgstr ""
+
+#: random-from-category-widget.php:139
+msgid "Allowed HTML tags in excerpts:"
+msgstr ""
+
+#: random-from-category-widget.php:143
+msgid "E.g.: "
+msgstr ""
