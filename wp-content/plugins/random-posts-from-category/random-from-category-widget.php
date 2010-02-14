@@ -76,10 +76,8 @@ class RandomPostsFromCategory extends WP_Widget {
 				  <div class="movies_list">
 				  <?php
 			    if ( $title) {
-				    if ($instance['postlink'] == 1)  {
-					    $before_title .= '<a href="'.get_category_link($instance['cat']).'">';
-					    $after_title .= '</a>';
-				    }
+				    if ($instance['postlink'] == 1)
+					    $title = '<a href="'.get_category_link($instance['cat']).'">' . $title . '</a>';
 				    echo $before_title.$title.$after_title;
 			    }
 				  ?>
