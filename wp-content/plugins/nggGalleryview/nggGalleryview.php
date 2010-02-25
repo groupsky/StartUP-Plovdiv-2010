@@ -38,7 +38,7 @@ if (!class_exists('nggGalleryview')) {
 			wp_enqueue_script('easing', $this->plugin_url . 'jquery.easing.1.2.js', array('jquery'), '1.2');			
 			wp_enqueue_script('galleryview', $this->plugin_url . 'jquery.galleryview-1.1-pack.js', array('jquery'), '1.1');
  			wp_enqueue_script('timers', $this->plugin_url . 'jquery.timers-1.1.2.js', array('jquery'), '1.1.2');
-			wp_enqueue_script('jcarousellite', $this->plugin_url . 'jquery.jcarousellite_1.0.1.pack.js', array('jquery'), '1.0.1');
+			wp_enqueue_script('jcarousellite', $this->plugin_url . 'jquery.jcarousellite_1.1.js', array('jquery'), '1.1');
 		}
 
 	}

@@ -5,48 +5,33 @@
 	background: url(images/slid.png) no-repeat;
 }
 
-.gallerycover{
+.gallery-cover {
 	position: absolute;
 	overflow: hidden;
-	width: 455px;
+	width: 925px;
 	height: 200px;
 	top: 0px;
 	right: 0px;
+}
+
+.gallery {
+	position: relative;
+	height: 200px;
+	width: 925px;
+}
+
+.gallery ul li{
+	height: 200px;
+}
+
+.gallery ul li img{
+  float: right;
+	height: 200px;
+	width: 470px;
 	z-index: 11;
 }
 
-.mygallery{
-	position: relative;
-	height: 200px;
-	width: 470px;
-}
-
-.mygallery img{
-	height: 200px;
-	width: 470px;
-}
-
-.textcover{
-	width: 470px;
-	height: 200px;
-	overflow: hidden;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
-
-.mytext{
-	position: relative;
-	float: left;
-	height: 200px;
-	width: 470px;
-}
-
-.mytext ul li{
-	height: 200px;
-}
-
-.mytext h2 {
+.gallery ul li h2 {
 	margin: 50px 0 5px 0;
 	font-size: 18px;
 	font-weight: normal;
@@ -54,12 +39,12 @@
 	color: #000;
 }
 
-.mytext h2 a, .mytext h2 a:link, .mytext h2 a:visited {
+.gallery ul li h2 a, .mytext h2 a:link, .mytext h2 a:visited {
 	text-decoration: underline;
 	color: #000;
 }
 
-.mytext h2 a:hover {
+.gallery ul li h2 a:hover {
 	color: #39c;
 }
 

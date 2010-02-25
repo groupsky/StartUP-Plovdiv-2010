@@ -58,16 +58,6 @@ Follow variables are useable :
 */?>
 
 <div id="<?php echo $gallery->anchor ?>" class="carouselview">
-  <div class="gallerycover">
-    <div class="mygallery">
-    	<ul>
-      	<?php foreach ($images as $image) : ?>	
-    	    <li><img src="<?php echo $image->imageURL ?>" alt="<?php echo $image->alttext ?>" title="<?php echo $image->alttext ?>" /></li>
-      	<?php endforeach; ?>
-    	</ul>
-    </div>
-  </div>
-
   <div class="controls">
     <ul class="numbers">
     	<?php
@@ -79,72 +69,50 @@ Follow variables are useable :
      	<?php endforeach; ?>
     </ul>
   </div>
-	<!-- Texts -->
-	<div class="textcover">
-	  <div class="mytext">
-	    <ul>
-      	<?php 
-      	  $idx = 0;
-      	  foreach ($images as $image): 
-      	    $idx++;
-      	?>
-      	  <li id="mytext-<?php echo $idx; ?>">
-			      <h2><?php echo html_entity_decode ($image->alttext); ?></h2>
-			      <p><?php echo html_entity_decode ($image->description); ?></p>
-      	  </li>
-       	<?php endforeach; ?>
-      </ul>
+
+  <div class="gallery-cover">
+    <div class="gallery">
+      <ul>
+<?php 
+    	  $idx = 0;
+    	  foreach ($images as $image): 
+    	    $idx++;
+?>
+          <li id="slice-<?php echo $idx; ?>">
+            <img src="<?php echo $image->imageURL ?>" alt="<?php echo $image->alttext ?>" title="<?php echo $image->alttext ?>" />
+            <h2><?php echo html_entity_decode ($image->alttext); ?></h2>
+            <p><?php echo html_entity_decode ($image->description); ?></p>
+          </li>        	    
+<?php endforeach; ?>
+     	</ul>
     </div>
   </div>
+  <div class="clr"></div>
 </div>
 
 <script type="text/javascript" defer="defer">
 	jQuery("document").ready(function(){
-		jQuery('#<?php echo $gallery->anchor ?> .mygallery').jCarouselLite({
+		jQuery('#<?php echo $gallery->anchor ?> .gallery').jCarouselLite({
 			easing: 'easeInOutQuad',
 			visible: 1,
       vertical: true,
       speed: 1000,
-      auto: 5000,
+      auto: true,
+      timeout: 5000,
       circular: true,
-      btnGo: [
-      	<?php
+      mouseWheel: true,
+      pause: true,
+      btnGo: [<?php
       	  $idx = 1;
       	  foreach ($images as $image): 
       	    if ($idx > 1) echo ",";
-      	?>	
-    	    ".numbers .<?php echo $idx; ?>"
-      	<?php 
+      	?>".numbers .<?php echo $idx; ?>"<?php 
       	    $idx++;
       	  endforeach; 
-      	?>
-      ]
-    });
-		jQuery('#<?php echo $gallery->anchor ?> .mytext').jCarouselLite({
-      visible: 1,
-      vertical: true,
-			easing: 'easeInOutQuad',
-      speed: 1000,
-      auto: 5000,
-      circular: true,
-      btnGo: [
-      	<?php
-      	  $idx = 1;
-      	  foreach ($images as $image): 
-      	    if ($idx > 1) echo ",";
-      	?>	
-    	    ".numbers .<?php echo $idx; ?>"
-      	<?php 
-      	    $idx++;
-      	  endforeach; 
-      	?>
-      ],
-      beforeStart: function(a){
-        //jQuery('.controls .numbers .' + a.get(0).id.substring(7)).removeClass('current');
-      },
+      	?>],
       afterEnd: function(a){
         jQuery('.controls .numbers li').removeClass('current');
-        jQuery('.controls .numbers .' + a.get(0).id.substring(7)).addClass('current');
+        jQuery('.controls .numbers .' + a.get(0).id.substring(6)).addClass('current');
       }
     });
 	});
