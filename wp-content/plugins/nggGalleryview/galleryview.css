@@ -70,8 +70,9 @@
 
 ul.numbers {
 	margin: 168px 0 0;
-	height: 32px;
 	padding: 2px;
+	height: 32px;
+	width: 466px;
 	background: #f5f5f5;
 }
 
